@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myh5</title>
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <script>
+        function onTouch(x)
+        {
+            x.style.color="#4F4F4F";
+        }
+        function onLeave(x)
+        {
+            x.style.color="#828282";
+        }
+    </script>
+</head>
+<body>
+<div class="header">
+<ul >
+    <li class="weh5"><a href="#" target="_self">we-h5后台管理平台</a></li>
+    <li class="login"><a href="#" target="_self">退出</a></li>
+    <li class="user"><a href="#" target="_self">个人中心</a></li>
+</ul>
+    <div class="clear"></div>
+</div>
+<div class="nav">
+    <p><span>管理员管理</span></p>
+    <ul class="userManager">
+        <li><a href="#" target="_self">用户管理</a></li>
+        <li><a href="#" target="_self">音乐管理</a></li>
+        <li><a href="#" target="_self">图库管理</a></li>
+    </ul>
+    <p><span>用户管理</span></p>
+    <ul class="userManager">
+        <li><a href="#" target="_self">用户管理</a></li>
+        <li><a href="#" target="_self">音乐管理</a></li>
+        <li><a href="#" target="_self">图库管理</a></li>
+    </ul>
+    <p><span>案例管理</span></p>
+    <ul class="userManager">
+        <li><a href="#" target="_self">用户管理</a></li>
+        <li><a href="#" target="_self">音乐管理</a></li>
+        <li><a href="#" target="_self">图库管理</a></li>
+    </ul>
+    <p><span>系统素材管理</span></p>
+    <ul class="userManager">
+        <li><a href="#" target="_self">用户管理</a></li>
+        <li><a href="#" target="_self">音乐管理</a></li>
+        <li><a href="#" target="_self">图库管理</a></li>
+    </ul>
+    <p><span>用户素材管理</span></p>
+    <ul class="userManager">
+        <li><a href="#" target="_self">用户管理</a></li>
+        <li><a href="#" target="_self">音乐管理</a></li>
+        <li><a href="#" target="_self">图库管理</a></li>
+    </ul>
+    <div class="clear"></div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</div>
+<div class="main">
+<div class="top">
+    <form>
+        <label class="text" for="email">根据用户名搜索:</label>
+        <input class="input" type="email" name="email" id="email"/>
+        <input onmousemove="onTouch(this)" onmouseout="onLeave(this)" class="submit" type="submit" value="查询" />
+    </form>
+</div>
+    <div class="table">
+        <table>
+            <tr>
+                <td class="email">用户邮箱：497597115@qq.com</td>
+                <td class="number">创建场景数量：3</td>
+                <td class="edit"><a href="#">修改</a></td>
+                <td class="delete"><a href="#">删除</a></td>
+            </tr>
+            <tr>
+                <td class="email">用户邮箱：1234567@qq.com</td>
+                <td>创建场景数量：3</td>
+                <td class="edit"><a href="#">修改</a></td>
+                <td class="delete"><a href="#">删除</a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
